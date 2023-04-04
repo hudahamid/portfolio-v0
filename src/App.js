@@ -7,14 +7,15 @@ function App() {
       <header className="App-header">
         
         <a
-          className="App-link"
+          className="App-link text-red-500 "
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" 
         >
           Learn React
         </a>
       </header>
+      <h2 className=" text-red-500 ">hi</h2>
     </div>
   );
 }
