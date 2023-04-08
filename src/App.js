@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './component/navbar/Navbar';
 import Intro from './component/intro/Intro';
+import Services from './component/Servicess/Services';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      <Navbar/>
       <Intro/>
+      <Services/>
     </div>
   );
 }

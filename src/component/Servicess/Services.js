@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Resume from './resume.pdf'
 const Services=() =>{
   return (
     <div  className="services">
@@ -12,7 +12,7 @@ const Services=() =>{
     <br/>
     ispum is simpley dummy text of printing
     </spane>
-    <a>
+    <a href={Resume} download >
      <button>Download My Resume</button>   
     </a>
      </div>
@@ -20,4 +20,4 @@ const Services=() =>{
   )
 }
 
-export default Services
+export default Services;
